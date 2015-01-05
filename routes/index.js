@@ -44,9 +44,9 @@ userlist.aggregate([
     });
 
 
-
-/*for (var i = 1; i <= 21; i++) {
-var state = "KY"
+/*
+for (var i = 1; i <= 6; i++) {
+var state = "ND";
 var username = 'Amartam_'+state+'_'+i;
 
 var user = new userlist();
@@ -55,8 +55,8 @@ user.name = username;
 user.country = "USA";
 user.state = state;
 user.age = age;
-user.addr = { lat : '37.5000', long: '85.0000'};
- 
+user.addr = { lat : '47.0000', long: '100.0000'};
+  
 //console.log(user);
 
 user.save(function(err, user){
